@@ -42,16 +42,26 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Contact */}
+          {/* Connect */}
           <div>
             <h3 className="text-lg font-semibold text-gray-800 dark:text-white mb-4">
               Connect
             </h3>
             <div className="flex space-x-4">
-              <a href="https://github.com" className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400">
+              <a 
+                href="https://github.com/Cdasilver29" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400"
+              >
                 GitHub
               </a>
-              <a href="https://linkedin.com" className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400">
+              <a 
+                href="https://linkedin.com" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400"
+              >
                 LinkedIn
               </a>
             </div>
@@ -61,7 +71,7 @@ const Footer = () => {
         {/* Copyright */}
         <div className="border-t border-gray-300 dark:border-gray-700 mt-8 pt-8 text-center">
           <p className="text-gray-600 dark:text-gray-400">
-            © {currentYear} TaskApp. All rights reserved.
+            © {currentYear} TaskApp. All rights reserved. Built with ❤️ by Calvine Mugunda
           </p>
         </div>
       </div>

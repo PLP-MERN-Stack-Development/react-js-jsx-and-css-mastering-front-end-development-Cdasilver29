@@ -10,12 +10,13 @@ const Card = ({
     <div 
       className={`
         bg-white dark:bg-gray-800 rounded-lg shadow-md p-6
-        ${hover ? 'hover:shadow-lg transition-shadow duration-300' : ''}
+        transform transition-all duration-300 ease-in-out
+        ${hover ? 'hover:shadow-xl hover:-translate-y-1 hover:scale-[1.02]' : ''}
         ${className}
       `}
     >
       {title && (
-        <h3 className="text-xl font-bold mb-4 text-gray-800 dark:text-white">
+        <h3 className="text-xl font-bold mb-4 text-gray-800 dark:text-white animate-fade-in">
           {title}
         </h3>
       )}

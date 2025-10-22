@@ -8,11 +8,10 @@ const Button = ({
   disabled = false,
   className = ''
 }) => {
-  // Define variant styles
   const variantStyles = {
-    primary: 'bg-blue-600 hover:bg-blue-700 text-white',
-    secondary: 'bg-gray-600 hover:bg-gray-700 text-white',
-    danger: 'bg-red-600 hover:bg-red-700 text-white',
+    primary: 'bg-blue-600 hover:bg-blue-700 text-white hover:shadow-lg',
+    secondary: 'bg-gray-600 hover:bg-gray-700 text-white hover:shadow-lg',
+    danger: 'bg-red-600 hover:bg-red-700 text-white hover:shadow-lg',
   };
 
   return (
@@ -21,8 +20,10 @@ const Button = ({
       onClick={onClick}
       disabled={disabled}
       className={`
-        px-4 py-2 rounded-lg font-medium transition-colors duration-200
-        disabled:opacity-50 disabled:cursor-not-allowed
+        px-4 py-2 rounded-lg font-medium 
+        transition-all duration-200 ease-in-out
+        transform hover:scale-105 active:scale-95
+        disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:scale-100
         ${variantStyles[variant]}
         ${className}
       `}
