@@ -2,7 +2,7 @@
 
 A modern, responsive task management application built with React.js, Vite, and Tailwind CSS. This project demonstrates component architecture, state management, hooks usage, API integration, and responsive design principles.
 
-![Project Banner](./screenshots/banner.png)
+![Website](https://task-manager-phi-cyan.vercel.app/)
 
 ## 📋 Table of Contents
 
