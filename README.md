@@ -285,12 +285,7 @@ GET /posts
 *Task list with active and completed tasks*
 
 ### API Data Display
-![API Data](./screenshots/api-data.png)
-*Posts fetched from JSONPlaceholder API*
-
-### Mobile Responsive
-![Mobile View](./screenshots/mobile-menu.png)
-*Mobile navigation menu*
+![API Data](./screenshots/api-data.png) *Posts fetched from JSONPlaceholder API*
 
 ---
 
@@ -390,9 +385,9 @@ This project is part of a PLP Academy assignment and is for educational purposes
 - [x] Responsive design
 - [x] Dark/Light theme
 - [x] README documentation
-- [ ] Screenshots added
-- [ ] Deployed to hosting platform
-- [ ] Submitted to GitHub Classroom
+- [x] Screenshots added
+- [x] Deployed to hosting platform
+- [x] Submitted to GitHub Classroom
 
 ---
 
