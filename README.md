@@ -285,7 +285,8 @@ GET /posts
 *Task list with active and completed tasks*
 
 ### API Data Display
-![API Data](./screenshots/api-data.png) *Posts fetched from JSONPlaceholder API*
+![API Data](./screenshots/api-data.png) 
+*Posts fetched from JSONPlaceholder API*
 
 ---
 
