@@ -2,7 +2,7 @@
 
 A modern, responsive task management application built with React.js, Vite, and Tailwind CSS. This project demonstrates component architecture, state management, hooks usage, API integration, and responsive design principles.
 
-![Website](https://task-manager-phi-cyan.vercel.app/)
+**Live Demo**: [https://your-app-url.vercel.app](https://task-manager-phi-cyan.vercel.app/)
 
 ## 📋 Table of Contents
 
@@ -295,7 +295,7 @@ GET /posts
 
 This project is deployed and accessible at:
 
-**Live Demo**: [https://your-app-url.vercel.app](https://your-app-url.vercel.app)
+**Live Demo**: [https://your-app-url.vercel.app](https://task-manager-phi-cyan.vercel.app/)
 
 ### Deploy to Vercel
 
@@ -311,14 +311,14 @@ This project is deployed and accessible at:
 
 3. Follow the prompts to complete deployment
 
-### Deploy to Netlify
+### Deploy to Vercel
 
 1. Build the project:
    ```bash
    npm run build
    ```
 
-2. Drag and drop the `dist/` folder to [Netlify Drop](https://app.netlify.com/drop)
+2. Drag and drop the `dist/` folder to [Vercel Drop](https://task-manager-phi-cyan.vercel.app/)
 
 ### Deploy to GitHub Pages
 
